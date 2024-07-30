@@ -1,0 +1,203 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #333;
+    overflow: auto;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 5px;
+    background-color: #333;
+    overflow: auto;
+}
+
+nav ul li a {
+    border: 1px solid white;
+    padding: 8px;
+    display: flex;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    overflow: auto;
+}
+nav ul li a:hover {
+    background-color: #111;
+    overflow: auto;
+}
+.logo-icon{
+    margin: 10px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5sG7pwT8qsPeMYGEoi4cMB4BNedzmRu88DQ&s);
+    height: 50px;
+    width: 70px;
+    background-size: cover;
+    overflow: auto;
+}
+section {
+    padding: 20px;
+    /* overflow: auto; */
+}
+
+h1 {
+    /* padding: 8px; */
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+    overflow: auto;
+}
+
+section h2 {
+    text-align: center;
+    overflow: auto;
+}
+#banner {
+    background-color: #f4f4f4;
+    display: flex;
+    /* text-align: center; */
+    /* overflow: auto; */
+}
+
+.banner {
+    height: 350px;
+    /* width: 5px; */
+    /* background-color: #f2f2f2; */
+    display: flex;
+    /* overflow: auto; */
+    /* Add styles for banner */
+}
+.home-item {
+    text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    /* margin: auto; */
+}
+.home {
+    margin-left: 30px;
+}
+.icon-img {
+   display: flex;
+   /* text-align: left; */
+   /* padding-left: 20%; */
+}
+
+#contact {
+    display: flex;
+    overflow: auto;
+}
+
+.side-by-side {
+    display: flex;
+    justify-content: space-between;
+    /* padding: auto; */
+    padding-left: 10%;
+    padding-right: 10%;
+    /* overflow: auto; */
+}
+/* Our Package Section */
+#our-package .package {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: auto;
+}
+
+.package-item {
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    text-align: center;
+    overflow: auto;
+}
+
+.package-item h3 {
+    margin-top: 0;
+    overflow: auto;
+}
+
+#call-to-action {
+    background-color: #ddd;
+    text-align: center;
+    margin-bottom: 10%;
+    overflow: auto;
+}
+
+#call-to-action button {
+    padding: 10px 20px;
+    font-size: 1em;
+    overflow: auto;
+}
+ #call-to-action button a {
+    /* border: 1px solid white; */
+    padding: 8px;
+    display: flex;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    overflow: auto;
+ }
+
+form {
+    padding: 10px;
+    background-color: #f2f2f2;
+    margin: 10px;
+    overflow: auto;
+    max-height: 100%;
+}
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    overflow: auto;
+}
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0 20px;
+    box-sizing: border-box;
+    overflow: auto;
+}
+button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    overflow: auto;
+}
+button:hover {
+    background-color: #45a049;
+    overflow: auto;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 0;
+    /* position: fixed; */
+    width: 100%;
+    bottom: 0;
+    overflow: auto;
+}
+
+@media (max-width: 0) {
+    nav ul {
+        flex-direction: column;
+        text-align: center;
+        overflow: auto;
+    }
+
+    .banner {
+        height: 10px;
+        overflow: auto;
+    }
+}
