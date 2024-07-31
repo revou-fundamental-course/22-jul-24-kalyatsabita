@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         showSlide(currentSlide);
     }
 
-    setInterval(nextSlide, 3000); // Change slide every 3 seconds
+    setInterval(nextSlide, 2000); // Change slide every 3 seconds
 })
 
 document.getElementById('contactForm').addEventListener('submit', function(event) {
@@ -30,5 +30,3 @@ document.getElementById('contactForm').addEventListener('submit', function(event
         alert('Form submitted successfully.');
     }
 });
-
-// Add JavaScript for auto sliding banner
